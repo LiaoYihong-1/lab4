@@ -16,13 +16,7 @@ public class Human implements Say,Walkingto,Walkthrough{
             System.out.printf("There is a woman named %s\n", this.name);
         }
     }
-
-    public static class location extends Place{
-        public location(String desname){
-            super(desname);
-        }
-    }
-
+    
     public void setStatus(Status status){
         this.status=status;
     }
