@@ -8,6 +8,7 @@ public class Expedition{
 
     String name;
     int number=0;
+    int fix=0;
 
     Human inexpediton [] = new Human [4];
 
@@ -20,6 +21,11 @@ public class Expedition{
         public void showdes(){
             System.out.printf("this expedition aimed to %s\n",this.name);
         }
+    }
+    
+    public void adjust(Human human){
+        inexpediton[fix]=human;
+        fix++;
     }
 
     public void addmember(Human person){
