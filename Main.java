@@ -23,12 +23,18 @@ public class Main {
             expedition.addmember(A);
             expedition.addmember(B);
         }catch (RuntimeException e){
-            expedition.inexpediton=new Human [expedition.number+1];
-            expedition.inexpediton[expedition.number-1]=B;
-            expedition.number= expedition.number+1;
-            //expedition.addmember(B);
-            //expedition.getNumber();
-            System.out.printf("more people is ok\n");
+            Human help []=expedition.inexpediton;
+            expedition.inexpediton=new Human[expedition.number+1];
+            expedition.adjust(help[0]);
+            expedition.adjust(help[1]);
+            expedition.adjust(help[2]);
+            expedition.adjust(help[3]);
+            expedition.adjust(B);
+            expedition.number=expedition.inexpediton.length-1;
+            /*System.out.printf("more people is ok\n");
+            for(int i=0;i<expedition.inexpediton.length;i++){
+                System.out.print(expedition.inexpediton[i]+"\n");
+            }*/
         }
 
         actionofex.walkto(river);
@@ -66,3 +72,4 @@ public class Main {
         new Expedition.destination("where they from").showdes();
     }
 }
+
