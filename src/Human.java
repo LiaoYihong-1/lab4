@@ -16,7 +16,7 @@ public class Human implements Say,Walkingto,Walkthrough{
     }
     
     public void setStatus(Status status){
-        this.status=status;
+        this.status = status;
     }
 
 
@@ -48,23 +48,23 @@ public class Human implements Say,Walkingto,Walkthrough{
 
     @Override
     public void walkto(Place nameofdes) {
-        System.out.printf("%s is walking to %s\n",this.name,nameofdes.placename);
+        System.out.printf("%s is walking to %s\n", this.name,nameofdes.placename);
         setStatus(Status.WALKING);
     }
 
     @Override
     public void walkthrough(Place path) {
-        System.out.printf("% is walking by %s\n",this.name,path.placename);
+        System.out.printf("% is walking by %s\n", this.name,path.placename);
         setStatus(status.WALKING);
     }
 
     public void eat(String foodname){
-        System.out.printf("%s is eating %s\n",this.name,foodname);
+        System.out.printf("%s is eating %s\n", this.name, foodname);
         setStatus(Status.EATING);
     }
 
     public void sit(){
-        System.out.printf("%s sitted and took a rest\n",this.name);
+        System.out.printf("%s sitted and took a rest\n", this.name);
         setStatus(Status.SITTING);
     }
 
