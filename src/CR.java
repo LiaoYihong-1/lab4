@@ -1,6 +1,6 @@
 public class CR extends Human{
     CR(String name, int age, Sex sex){
-        super(name,age,sex);
+        super(name, age, sex);
     }
 
     public void estimate(){
@@ -9,7 +9,7 @@ public class CR extends Human{
     }
 
     public void stayornot(Grassland grassland) throws GrassLandNotFlatException{
-        if(grassland.feature==Feature.FLAT){
+        if(grassland.feature == Feature.FLAT){
             say("stop!\n");
         } else{
             throw new GrassLandNotFlatException("Grassland is not flat\n");

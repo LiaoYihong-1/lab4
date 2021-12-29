@@ -4,7 +4,7 @@ public class Place {
 
     public Place(String placename){
         this.placename=placename;
-        System.out.printf("Here is the %s\n",this.placename);
+        System.out.printf("Here is the %s\n", this.placename);
     }
 
 
@@ -21,23 +21,23 @@ public class Place {
             return false;
         }
         Place pla=(Place)o;
-        if(this.hashCode()!=o.hashCode()){
+        if(this.hashCode() != o.hashCode()){
             return false;
         }
-        return (this.placename==pla.placename);
+        return (this.placename == pla.placename);
     }
 
     @Override
     public int hashCode() {
-        int code=0;
-        for(int i=0;i<this.placename.length();i++){
-            code=code+(int)placename.charAt(i);
+        int code = 0;
+        for(int i = 0; i < this.placename.length(); i++){
+            code = code + (int)placename.charAt(i);
         }
         return code;
     }
 
     @Override
     public String toString() {
-        return "here is\n"+getPlacename();
+        return "here is\n" + getPlacename();
     }
 }

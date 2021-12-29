@@ -1,14 +1,14 @@
 public class Expedition{
     Expedition(String name){
-        this.name=name;
-        System.out.printf("%s started their journey\n",this.name);
+        this.name = name;
+        System.out.printf("%s started their journey\n", this.name);
     }
 
     String name;
-    int number=0;
-    int fix=0;
+    int number = 0;
+    int fix = 0;
 
-    Human inexpediton [] = new Human [4];
+    Human[] inexpediton = new Human [4];
 
     public static class destination{
         destination(String name){
@@ -22,18 +22,18 @@ public class Expedition{
     }
     
     public void adjust(Human human){
-        inexpediton[fix]=human;
+        inexpediton[fix] = human;
         fix++;
     }
 
     public void addmember(Human person){
         System.out.printf("%s enter the expedition\n", person.name);
-        inexpediton[number]=person;
+        inexpediton[number] = person;
         number = number + 1;
     }
 
     public int getNumber(){
-        System.out.printf("we have %d people now",this.number);
+        System.out.printf("we have %d people now", this.number);
         return number;
     }
     class action {
@@ -50,9 +50,9 @@ public class Expedition{
 
     public void crossshore(final String shorename,final Feature shoreFeture) {
         class Shore{
-            Shore(String nameofshore,Feature featureofshore) {
-                this.feature=featureofshore;
-                this.name=nameofshore;
+            Shore(String nameofshore, Feature featureofshore) {
+                this.feature = featureofshore;
+                this.name = nameofshore;
             }
 
             public String name;

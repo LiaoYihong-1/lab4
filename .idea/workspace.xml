@@ -5,23 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ee956ca8-fb4d-419b-8168-7e0c86c80498" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CR.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CR.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Expedition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Expedition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Feature.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Feature.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GrassLandNotFlatException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GrassLandNotFlatException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Grassland.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Grassland.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Human.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Normalmember.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Normalmember.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Place.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Place.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/River.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/River.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Say.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Say.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sex.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Status.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Status.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Walkingto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Walkingto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Walkthrough.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Walkthrough.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CR.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CR.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Expedition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Expedition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Grassland.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Grassland.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Place.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Place.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -209,7 +197,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1640793850404</updated>
-      <workItem from="1640793851605" duration="966000" />
+      <workItem from="1640793851605" duration="1948000" />
     </task>
     <servers />
   </component>
